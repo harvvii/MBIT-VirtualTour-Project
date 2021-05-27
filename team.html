@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta name="viewport" content="with=device-width, initial-scale=1.0">   
+    <title> Team </title>
+    <link rel="stylesheet" href="Style.css">
+    <link rel="stylesheet" href="team.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+    <section class="sub-header">
+        <nav>
+            <a href="index.html"><img src="pictures/webMBIT.png"></a>
+            <div class="nav-links" id="navLinks">
+                <i class="fa fa-times" onclick="hideMenu()"></i>
+                <ul>
+                    <li><a href="index.html">HOME</a></li>
+                    <li><a href="about.html">ABOUT</a></li>
+                    <li><a href="course.html">DEPARTMENTS</a></li>
+                    <li><a href="blog.html">BLOG</a></li>
+                    <li><a href="p.html">PHOTO GALLERY</a></li>
+                    <li><a href="virtual-tour.html">VIRTUAL TOUR</a></li>
+                    <li><a href="contact.html">CONTACT</a></li>
+                    <li><a href="team.html">TEAM</a></li>
+
+                </ul>
+            </div>
+            <i class="fa fa-bars" onclick="showMenu()"></i>
+       </nav>
+       <h1>Our Team</h1>
+
+    </section>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+    <!-----Our team ------>
+    <div class="wrapper">
+        
+        <div class="team">
+          <div class="team_member">
+            <div class="team_img">
+              <img src="pictures/ruchi.png" alt="Team_image">
+            </div>
+            <h3>Ruchi Anand</h3>
+            <p class="role"><b>1 8 0 6 3 0 1 0 7 0 0 1</b></p>
+            <p>Ruchi Anand is a student at MBIT college. She is a enthusiate learner.</p>
+            </div>
+          <div class="team_member">
+            <div class="team_img">
+              <img src="pictures/ritu.png" alt="Team_image">
+            </div>
+            <h3>Ritu Chaurasia</h3>
+            <p class="role"><b>1 8 0 6 3 0 1 0 7 0 0 8</b></p>
+            <p>Ritu Chaurasia is a student at MBIT college. She loves exploring new thing.</p>
+          </div>
+          <div class="team_member">
+            <div class="team_img">
+              <img src="pictures/harvi.png" alt="Team_image">
+            </div>
+            <h3>Harvi Patel</h3>
+            <p class="role"><b>1 8 0 6 3 0 1 0 7 0 5 1</b></p>
+            <p>Harvi Patel is a student at MBIT college. She enjoys learning new programming languages.</p>
+          </div>
+        </div>
+      </div>
+
+
+
+
+      <!-------Footer----->
+      <footer class="footer">
+        <div class="footer-left">
+            <img src="pictures/webMBIT.png">
+            <p> Madhuben & Bhanubhai Patel Institute of Technology<br>
+                (A Constituent College of CVM University)</p>
+            <div class="icons">
+               <i class="fa fa-facebook"></i>
+               <i class="fa fa-twitter"></i>
+               <i class="fa fa-instagram"></i>
+               <i class="fa fa-linkedin"></i>
+               </div>
+        </div>
+        <ul class="footer-right">
+            <li>
+                <h2> Facilities </h2>
+                <ul class="box">
+                    <li><a href=""> Computer Engineering</a></li>
+                    <li><a href=""> Information Technology Engineering</a></li>
+                    <li><a href=""> Library</a></li>
+                    <li><a href=""> Hostel</a></li>
+                    <li><a href=""> Cafeteria</a></li>
+                </ul>
+            </li>
+            <li class="features">
+                <h2>Quick Links</h2>
+                <ul class="box">
+                   <li><a href="about.html">About</a></li>
+                   <li><a href="course.html"> Departments</a></li>
+                   <li><a href="blog.html"> Blogs</a></li>
+                   <li><a href="p.html"> Photo Gallery</a></li>
+                   <li><a href="virtual-tour.html"> Virtual Tour</a></li>
+                   <li><a href="contact.html"> Contact</a></li>
+                   <li><a href="team.html"> Team</a></li>
+                </ul>
+            </li>
+            <li>
+               <h2> Address </h2>
+               <ul class="box">
+                   <li><a href="">GIDC, Phase IV,</a></li>
+                   <li><a href=""> Vithal Udyognagar</a></li>
+                   <li><a href=""> Anand, Gujarat</a></li>
+                   <li><a href=""> 388121</a></li>
+               </ul>
+           </li>
+        </ul>
+        <div class="footer-bottom">
+            <P>All rights reserved by &copy;Ruchi Anand, Ritu Chaurasia and Harvi Patel</P>
+        </div>
+    </footer>
+<!----Footer ends-->
+
+
+
+
+
+
+
+<!------- javascript for toggle menu------>
+  <script>
+      var navLinks = document.getElementById("navLinks");
+      function showMenu(){
+          navLinks.style.right = "0";
+      }
+       function hideMenu(){
+          navLinks.style.right = "-200px";
+      }   
+  </script>
+
+</body>
+</html>
